@@ -1,0 +1,54 @@
+/*
+Add this section to your css file in Themes.
+
+*/
+
+/* START ENERYFLOW MODULE */
+
+.energyflowInnerDiv {
+    z-index: 5;
+    position: relative;
+}
+.energyflowArrowshaft {
+    z-index: 4;
+    position: absolute;
+}
+.energyflowArrowheadSlow1 {
+    z-index: 3;
+    position: absolute;
+    animation: energyflowArrowheadMove 5s infinite linear;
+}
+.energyflowArrowheadMed1 {
+    z-index: 3;
+    position: absolute;
+    animation: energyflowArrowheadMove 5s infinite linear;
+}
+.energyflowArrowheadMed2 {
+    z-index: 2;
+    position: absolute;
+    animation: energyflowArrowheadMove 5s infinite linear;
+    animation-delay: -2.5s;
+}
+.energyflowArrowheadFast1 {
+    z-index: 3;
+    position: absolute;
+    animation: energyflowArrowheadMove 3s infinite linear;
+}
+.energyflowArrowheadFast2 {
+    z-index: 2;
+    position: absolute;
+    animation: energyflowArrowheadMove 3s infinite linear;
+    animation-delay: -1s;
+}
+.energyflowArrowheadFast3 {
+    z-index: 1;
+    position: absolute;
+    animation: energyflowArrowheadMove 3s infinite linear;
+    animation-delay: -2s;
+}
+@keyframes energyflowArrowheadMove {
+    0%       { transform: translatex(-20%) translatey(-20%) }
+    100%     { transform: translatex(90%) translatey(90%) }
+}
+
+/* END ENERYFLOW MODULE */
