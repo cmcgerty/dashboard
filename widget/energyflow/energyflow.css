@@ -32,19 +32,19 @@ Add this section to your css file in Themes.
 .energyflowArrowheadFast1 {
     z-index: 3;
     position: absolute;
-    animation: energyflowArrowheadMove 3s infinite linear;
+    animation: energyflowArrowheadMove 2.5s infinite linear;
 }
 .energyflowArrowheadFast2 {
     z-index: 2;
     position: absolute;
-    animation: energyflowArrowheadMove 3s infinite linear;
-    animation-delay: -1s;
+    animation: energyflowArrowheadMove 2.5s infinite linear;
+    animation-delay: -0.83333s;
 }
 .energyflowArrowheadFast3 {
     z-index: 1;
     position: absolute;
-    animation: energyflowArrowheadMove 3s infinite linear;
-    animation-delay: -2s;
+    animation: energyflowArrowheadMove 2.5s infinite linear;
+    animation-delay: -1.66666s;
 }
 @keyframes energyflowArrowheadMove {
     0%       { transform: translatex(-20%) translatey(-20%) }
