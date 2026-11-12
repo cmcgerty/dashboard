@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "source": "Modules/dashboard/widget/iconify/iconify_render.js",
+  "widgets": {
+    "iconify": {
+      "options": {
+        "icon": {
+          "type": "value"
+        },
+        "colour": {
+          "type": "colour_picker"
+        },
+        "width": {
+          "type": "number",
+          "min": 1,
+          "max": 4000
+        },
+        "height": {
+          "type": "number",
+          "min": 1,
+          "max": 4000
+        },
+        "rotate": {
+          "type": "number",
+          "min": -360,
+          "max": 360
+        },
+        "url": {
+          "type": "url"
+        },
+        "feedid": {
+          "type": "feedid"
+        },
+        "thresh1": {
+          "type": "value"
+        },
+        "icon1": {
+          "type": "value"
+        },
+        "colour1": {
+          "type": "colour_picker"
+        },
+        "thresh2": {
+          "type": "value"
+        },
+        "icon2": {
+          "type": "value"
+        },
+        "colour2": {
+          "type": "colour_picker"
+        },
+        "thresh3": {
+          "type": "value"
+        },
+        "icon3": {
+          "type": "value"
+        },
+        "colour3": {
+          "type": "colour_picker"
+        }
+      }
+    }
+  }
+}
